@@ -1,0 +1,811 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.53f1 (df4e529d20d3) revision 14634578'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 3738 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Hub\Editor\2022.3.53f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/MyFirstGameMoses
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65489
+Successfully changed project path to: D:/MyFirstGameMoses
+D:/MyFirstGameMoses
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6744]  Target information:
+
+Player connection [6744]  * "[IP] 192.168.1.187 [Port] 0 [Flags] 2 [Guid] 1176422248 [EditorId] 1176422248 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GTL230JL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6744] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6744] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 159.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.53f1 (df4e529d20d3)
+[Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2022.3.53f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/MyFirstGameMoses/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9a78)
+    Vendor:   Intel
+    VRAM:     1869 MB
+    Driver:   31.0.101.5186
+Initialize mono
+Mono path[0] = 'D:/Unity/Hub/Editor/2022.3.53f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Hub/Editor/2022.3.53f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Hub/Editor/2022.3.53f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.109627 seconds.
+- Loaded All Assemblies, in  2.692 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1146 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.548 seconds
+Domain Reload Profiling: 5244ms
+	BeginReloadAssembly (1523ms)
+		ExecutionOrderSort (2ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (186ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (488ms)
+	LoadAllAssembliesAndSetupDomain (451ms)
+		LoadAssemblies (1496ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (433ms)
+			TypeCache.Refresh (422ms)
+				TypeCache.ScanAssembly (347ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2467ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1922ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (441ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.824 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.147 seconds
+Domain Reload Profiling: 3966ms
+	BeginReloadAssembly (360ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (2319ms)
+		LoadAssemblies (2225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (297ms)
+				TypeCache.ScanAssembly (247ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1148ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (915ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (737ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 9.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.0 MB). Loaded Objects now: 2250.
+Memory consumption went from 137.7 MB to 136.7 MB.
+Total: 7.204200 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.039200 ms MarkObjects: 5.493000 ms  DeleteObjects: 1.482800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 381732.159187 seconds.
+  path: Assets/Necessary files/Sounds/Shot.mp3
+  artifactKey: Guid(3df3547ff8bc4414d972d89128deb5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Necessary files/Sounds/Shot.mp3 using Guid(3df3547ff8bc4414d972d89128deb5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8502158592584f1b6f8a56a25b163343') in 1.751527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS/Party-Pack_Balloons_Popping_02-01.wav
+  artifactKey: Guid(023c13d428fdb1d449c113da9a2616f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS/Party-Pack_Balloons_Popping_02-01.wav using Guid(023c13d428fdb1d449c113da9a2616f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8d2b0d4d0c81d24bd97a35feb0f91357') in 0.268214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Necessary files/Sounds/Bounce.mp3
+  artifactKey: Guid(03bd9a6ae4426fb4e8c8dc33a1a53644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Necessary files/Sounds/Bounce.mp3 using Guid(03bd9a6ae4426fb4e8c8dc33a1a53644) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e5407430b869a1f996fa9e4b025b9fd7') in 0.268090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS/Party-Pack_Balloons_Friction_Hand_Long_01.wav
+  artifactKey: Guid(dbbe9d3a321360b49a2f30a517cc92b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS/Party-Pack_Balloons_Friction_Hand_Long_01.wav using Guid(dbbe9d3a321360b49a2f30a517cc92b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '63b57397cfbe4d392429cf9c8893ef4b') in 0.309891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS/Party-Pack_Balloons_Inflate_Mouth_Long_01.wav
+  artifactKey: Guid(013fc680d95ebac4fa51e507ff29d204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS/Party-Pack_Balloons_Inflate_Mouth_Long_01.wav using Guid(013fc680d95ebac4fa51e507ff29d204) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '04354606d32789990e5e6a7f90bb845a') in 0.340196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Necessary files/Sounds/Dribble.mp3
+  artifactKey: Guid(294a51550b6f245458083b906ae7d61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Necessary files/Sounds/Dribble.mp3 using Guid(294a51550b6f245458083b906ae7d61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '315c1f4845a863de858298b94ab65d3d') in 0.081064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Necessary files/Sounds/New Physic Material.physicMaterial
+  artifactKey: Guid(04a321620c6a4d449ac8fa1dd0b702a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Necessary files/Sounds/New Physic Material.physicMaterial using Guid(04a321620c6a4d449ac8fa1dd0b702a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9edc4e8c778899c51dbba1ff6364808f') in 0.005892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS/Party-Pack_Balloons_Tying_Short_01.wav
+  artifactKey: Guid(81e9b292f17764747b6c36ada1716313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS/Party-Pack_Balloons_Tying_Short_01.wav using Guid(81e9b292f17764747b6c36ada1716313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0eaa8b7c6b998cf2b6723551da827bb7') in 0.042957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS
+  artifactKey: Guid(805e3ee01fc749e4faaaafb889893a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS using Guid(805e3ee01fc749e4faaaafb889893a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fd068302d75a5245c44b18ec0179cf54') in 0.002329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Necessary files/Sounds
+  artifactKey: Guid(a42b184d08c5629418f2fc17c862e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Necessary files/Sounds using Guid(a42b184d08c5629418f2fc17c862e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3d2fb16cfbf36dc406a1790828b22119') in 0.000875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS/Party-Pack_Balloons_Deflate_Moderate_03-02.wav
+  artifactKey: Guid(544b1113760c2a444b26405644e161ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_BALLOONS/Party-Pack_Balloons_Deflate_Moderate_03-02.wav using Guid(544b1113760c2a444b26405644e161ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fd77a2f9242d55ec41a0f8374abeb5d6') in 0.055857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.593501 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_FIRE/Party-Pack_Match_Extinguish_Blowing_01-01.wav
+  artifactKey: Guid(d03c17e5399ce2e4398b0729b487e1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_FIRE/Party-Pack_Match_Extinguish_Blowing_01-01.wav using Guid(d03c17e5399ce2e4398b0729b487e1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '92fcd0784da0987d9902c2d241f1fb3a') in 0.070739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_FIRE/Party-Pack_Poppers_01-01.wav
+  artifactKey: Guid(62553a361b1178a4e944b3816cc84ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_FIRE/Party-Pack_Poppers_01-01.wav using Guid(62553a361b1178a4e944b3816cc84ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '68833f5d8ea4f94afcca20356ae28d63') in 0.090146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_FIRE/Party-Pack_Sparkler_Still_01-02.wav
+  artifactKey: Guid(382f52cd0c2fde84e86a2444f60eb21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_FIRE/Party-Pack_Sparkler_Still_01-02.wav using Guid(382f52cd0c2fde84e86a2444f60eb21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '70cd02c34746f201fb072b32450afc58') in 0.212458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_FIRE/Party-Pack_Match_Extinguish_Water_01.wav
+  artifactKey: Guid(e15673eb24ea4ac4baee3683f1785715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_FIRE/Party-Pack_Match_Extinguish_Water_01.wav using Guid(e15673eb24ea4ac4baee3683f1785715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'eea7a13ef715a3076ec03be19f4100ef') in 0.060556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Party Pack (Free Sample Pack)/Party-Pack_FIRE/Party-Pack_Match_Ignite_01-01.wav
+  artifactKey: Guid(f376cde91070d104b81cc58722fcf80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Party Pack (Free Sample Pack)/Party-Pack_FIRE/Party-Pack_Match_Ignite_01-01.wav using Guid(f376cde91070d104b81cc58722fcf80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f3fb32d6ac1543e807852a08ab392575') in 0.101515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.288359 seconds.
+  path: Assets/Images/0nRtJ.png
+  artifactKey: Guid(7c85718d0db271c4ca965b400da20d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/0nRtJ.png using Guid(7c85718d0db271c4ca965b400da20d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5d9d3c8330c7b4fca656ac30aa82387d') in 0.205535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Images/fifa_world_cup_qatar_2022_by_jafarjeef_df2um59-fullview.jpg
+  artifactKey: Guid(e72033f2477462049b95399df6aa6cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/fifa_world_cup_qatar_2022_by_jafarjeef_df2um59-fullview.jpg using Guid(e72033f2477462049b95399df6aa6cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c21d4f5d0252abe6328a2b58227b6aeb') in 0.061033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Images/FC_BARCELONA_ADBOARDS-2019-2020-1200x2400.png
+  artifactKey: Guid(c8d92e47508164d43928d1abc00d92f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/FC_BARCELONA_ADBOARDS-2019-2020-1200x2400.png using Guid(c8d92e47508164d43928d1abc00d92f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '40219c4e236a8cf1cb5f2ae5d3722deb') in 0.149859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Images/world-cup2.jpg
+  artifactKey: Guid(cd93c00da06518b4bbf2ab0865038922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/world-cup2.jpg using Guid(cd93c00da06518b4bbf2ab0865038922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'adf43011fef2e0fcbbed2a0b6d9c488d') in 0.080428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Images/Screenshot 2022-06-02 110059.png
+  artifactKey: Guid(5adc9cf5326630a4d84dd7278e372767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Screenshot 2022-06-02 110059.png using Guid(5adc9cf5326630a4d84dd7278e372767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '52b32aa31b5e8c811a74a15bf5a6d03b') in 0.050345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Images/pjimage-34-10.jpg
+  artifactKey: Guid(5a4fc48c706e34249b469c96e0aa1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/pjimage-34-10.jpg using Guid(5a4fc48c706e34249b469c96e0aa1c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fa1c2ae879ca30a1146fe5c89014ac63') in 0.042441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/16552420342319.jpg
+  artifactKey: Guid(a7a4589ebf61044408b58b693db9e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/16552420342319.jpg using Guid(a7a4589ebf61044408b58b693db9e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'ac931b70ed556cac929e776745d9d3e8') in 0.045742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/big.jpg
+  artifactKey: Guid(bcc6120a26b1c4f4580a27f8e16c1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/big.jpg using Guid(bcc6120a26b1c4f4580a27f8e16c1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '71d23e4395d223435181a2976e9cb365') in 0.043297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Images/2018-FIFA-World-Cup-adb-1200x2400.png
+  artifactKey: Guid(5f07e432641fc4b49963c53f9a6286b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/2018-FIFA-World-Cup-adb-1200x2400.png using Guid(5f07e432641fc4b49963c53f9a6286b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '67115cfb3a53474d285e7bdfd99cd09e') in 0.136752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/world cup trophy.png
+  artifactKey: Guid(c1f535810bc02384dbeba75d17cb3c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/world cup trophy.png using Guid(c1f535810bc02384dbeba75d17cb3c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bcd2a89f442e9f1bc6df1296ebe71499') in 0.056995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Images/nhxbp4L.png
+  artifactKey: Guid(a3b384f7db3cf934b84fc09167ad1da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/nhxbp4L.png using Guid(a3b384f7db3cf934b84fc09167ad1da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5f31ee0885ac111d0c342c456d5e0769') in 0.117865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Images/Qatar-Airways-Fifa-World-Cup.jpg
+  artifactKey: Guid(426c50e674d3dff4e861c6a48b371e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Qatar-Airways-Fifa-World-Cup.jpg using Guid(426c50e674d3dff4e861c6a48b371e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '050a3d589af2b70221038f4df12ec078') in 0.245654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Images/Qatar-2022-s-32-teams-graphic.jpg
+  artifactKey: Guid(d17dbfdb72c8a664d9f5e0bb3a4791c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Qatar-2022-s-32-teams-graphic.jpg using Guid(d17dbfdb72c8a664d9f5e0bb3a4791c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'caae62440c4f3ec2f5defb4d6f4d7450') in 0.092619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Images/f23-worldcup-featureimg-16x9.jpg.adapt.crop191x100.628p.jpg
+  artifactKey: Guid(5dc7d9932db1a54428db2c409f1cd6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/f23-worldcup-featureimg-16x9.jpg.adapt.crop191x100.628p.jpg using Guid(5dc7d9932db1a54428db2c409f1cd6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9731d4e734ee7acfcf54df6d4245a795') in 0.038183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Images/images.png
+  artifactKey: Guid(863d4e136a0742b4a862a7205a62c547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/images.png using Guid(863d4e136a0742b4a862a7205a62c547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4d519fb1423f4d482556a3ac4bf2e871') in 0.031918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Screenshot 2022-06-02 101718.png
+  artifactKey: Guid(702a1108c6db19b429857ca005772e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Screenshot 2022-06-02 101718.png using Guid(702a1108c6db19b429857ca005772e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'cfbee35e7892715761ce6f5fc3441ea9') in 0.033266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/worldcuplogo2022.jpg
+  artifactKey: Guid(537278098d82b0d428c8e20c8cbd30df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/worldcuplogo2022.jpg using Guid(537278098d82b0d428c8e20c8cbd30df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1f0e0721dec1b1fa28b76fde930738e3') in 0.078754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Images/download (1).jpg
+  artifactKey: Guid(ddb0e8ddfca9f174b88113d4521070e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/download (1).jpg using Guid(ddb0e8ddfca9f174b88113d4521070e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9a924e10cd979dfb7c374fb554287718') in 0.033374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.521476 seconds.
+  path: Assets/Images/Materials
+  artifactKey: Guid(b9e5b73673e363d4db52c15e9da0758c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials using Guid(b9e5b73673e363d4db52c15e9da0758c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'fcc163d29e0b71fa7f1f8704a0c44af8') in 0.001952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.367274 seconds.
+  path: Assets/Images/Materials/0nRtJ.mat
+  artifactKey: Guid(404ffb28013e47c429a02d0dc3232e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/0nRtJ.mat using Guid(404ffb28013e47c429a02d0dc3232e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd8703615cf1bc868417b12e9756e7b1d') in 0.473472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Images/Materials/big 1.mat
+  artifactKey: Guid(a72e3ee0c52f2904fa82d36d5565635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/big 1.mat using Guid(a72e3ee0c52f2904fa82d36d5565635e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3bb0e75f0d290f219fb669b269d86269') in 0.078080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Images/Materials/world-cup2.mat
+  artifactKey: Guid(01da7b5889bc4444e82c0502c3eea095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/world-cup2.mat using Guid(01da7b5889bc4444e82c0502c3eea095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4cc9a0208c57c38bb0ddd3b0877efb8b') in 0.034724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Images/Materials/Qatar-2022-s-32-teams-graphic 2.mat
+  artifactKey: Guid(770b7ed381f5bc24b92bc6ff2494d0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/Qatar-2022-s-32-teams-graphic 2.mat using Guid(770b7ed381f5bc24b92bc6ff2494d0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '2121eb7f714c2dc5bb826c2fe6d19223') in 0.030236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Materials/2018-FIFA-World-Cup-adb-1200x2400.mat
+  artifactKey: Guid(560ab914a8a72084fb76f8824cb2a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/2018-FIFA-World-Cup-adb-1200x2400.mat using Guid(560ab914a8a72084fb76f8824cb2a91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'edfd1acf8a08a4fd09ef52d1cac25d94') in 0.033965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Images/Materials/nhxbp4L.mat
+  artifactKey: Guid(2f5030adfecfd184590b1ad9a2c318f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/nhxbp4L.mat using Guid(2f5030adfecfd184590b1ad9a2c318f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd012ea9b51f72d548241515c25248516') in 0.032064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Materials/Qatar-2022-s-32-teams-graphic 1.mat
+  artifactKey: Guid(665ecfd2c76d7174b9f1083832421c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/Qatar-2022-s-32-teams-graphic 1.mat using Guid(665ecfd2c76d7174b9f1083832421c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a127c11c427b13d217b147318dd8b576') in 0.025278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/Materials/Screenshot 2022-06-02 110059.mat
+  artifactKey: Guid(d8d7dfc255f7c08499964f263bca0a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/Screenshot 2022-06-02 110059.mat using Guid(d8d7dfc255f7c08499964f263bca0a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f27bd35a760cd2d9bbb7ba5847ba0b76') in 0.031278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Images/Materials/f23-worldcup-featureimg-16x9.jpg.adapt.crop191x100.628p.mat
+  artifactKey: Guid(8b89991a9da5008499e38f721caad58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/f23-worldcup-featureimg-16x9.jpg.adapt.crop191x100.628p.mat using Guid(8b89991a9da5008499e38f721caad58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0ff2c5aef813970449e0949e56308f05') in 0.034700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Materials/big.mat
+  artifactKey: Guid(880b1fae57e760842971ef30003cd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/big.mat using Guid(880b1fae57e760842971ef30003cd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7b415d1308fa96179d574d6cc3a4d984') in 0.032170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/Materials/FC_BARCELONA_ADBOARDS-2019-2020-1200x2400.mat
+  artifactKey: Guid(46b2d412e94b6af4ba6a3661894a5d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/FC_BARCELONA_ADBOARDS-2019-2020-1200x2400.mat using Guid(46b2d412e94b6af4ba6a3661894a5d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd85350c25c36d65d68d37ddb7a8251bc') in 0.034959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Materials/Screenshot 2022-06-02 101718.mat
+  artifactKey: Guid(6a8677f7b661726418aec55d85107eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/Screenshot 2022-06-02 101718.mat using Guid(6a8677f7b661726418aec55d85107eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'e006dc246c0e73b8205364699c1181fb') in 0.035183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/Materials/pjimage-34-10.mat
+  artifactKey: Guid(d605731a35b288441996fbdb2ebdaa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/pjimage-34-10.mat using Guid(d605731a35b288441996fbdb2ebdaa76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '0f068b7be24ad697503f3b46ae86c026') in 0.034898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Images/Materials/dXpH3EZ.mat
+  artifactKey: Guid(bed200e71da90594b97a92ad284c675f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/dXpH3EZ.mat using Guid(bed200e71da90594b97a92ad284c675f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'df6fd8c2410aeb342be95fa1a95cae02') in 0.026388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Images/Materials/Qatar-2022-s-32-teams-graphic.mat
+  artifactKey: Guid(c3518624e5fd476448b840424b88a173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/Qatar-2022-s-32-teams-graphic.mat using Guid(c3518624e5fd476448b840424b88a173) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a4ec1d05ebfacc0d414ffaa667b42527') in 0.043531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Images/Materials/skysports-england-graphic-qualified_5584002.mat
+  artifactKey: Guid(ef05acdb21bb74648a8d7712d0aaa824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/skysports-england-graphic-qualified_5584002.mat using Guid(ef05acdb21bb74648a8d7712d0aaa824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '4313500147df28f5690f10e7c8e5797c') in 0.031594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Images/Materials/fifa_world_cup_qatar_2022_by_jafarjeef_df2um59-fullview.mat
+  artifactKey: Guid(625a80dfc59c6a2409e6bf7376811820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/fifa_world_cup_qatar_2022_by_jafarjeef_df2um59-fullview.mat using Guid(625a80dfc59c6a2409e6bf7376811820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9b5ef94af66bd011a1df56b101f447f5') in 0.064949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Images/Materials/download (1).mat
+  artifactKey: Guid(80b93e832b4177c46b0b4a0c12e45407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/download (1).mat using Guid(80b93e832b4177c46b0b4a0c12e45407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'eabb3a44f9453b5461b87d72af4939b3') in 0.036450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Materials/16552420342319.mat
+  artifactKey: Guid(f726be25eceb23b45a2499615b974672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/16552420342319.mat using Guid(f726be25eceb23b45a2499615b974672) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '352ced0238f76fedca53705349347d1f') in 0.045268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Images/Materials/images.mat
+  artifactKey: Guid(673c1f3ef12e8ca4cbe82240ab7488fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/images.mat using Guid(673c1f3ef12e8ca4cbe82240ab7488fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'dab6ef17167223c6cf2a17bf2c0dde20') in 0.035443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/Materials/Screenshot 2022-06-02 105428.mat
+  artifactKey: Guid(64ddad2d4602ce640be19141052e22fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/Screenshot 2022-06-02 105428.mat using Guid(64ddad2d4602ce640be19141052e22fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c1575cbb8cd5a0171d79d5e35061f692') in 0.036903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Materials/Qatar-Airways-Fifa-World-Cup.mat
+  artifactKey: Guid(1bc365f5abc40ad428f858324bf41792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/Qatar-Airways-Fifa-World-Cup.mat using Guid(1bc365f5abc40ad428f858324bf41792) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '34853b3eb2f6ac3727f181d733546587') in 0.040105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Materials/worldcuplogo2022.mat
+  artifactKey: Guid(906223efab64dad44b9d7183748fb628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/worldcuplogo2022.mat using Guid(906223efab64dad44b9d7183748fb628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '484f273aa1cd20b2d8deaf847cb191b8') in 0.048302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Images/Materials/kissclipart-win-football-icon-clipart-2018-world-cup-2014-fifa-0e7de2333c37e10c.mat
+  artifactKey: Guid(e682f1b285060d743b13f1aed80b6688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/kissclipart-win-football-icon-clipart-2018-world-cup-2014-fifa-0e7de2333c37e10c.mat using Guid(e682f1b285060d743b13f1aed80b6688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '66f86e885dde26c7c134c9cc4bf203b5') in 0.038430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Materials/world_10.mat
+  artifactKey: Guid(839bf3ec1f8848d4f9532dc894745aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Materials/world_10.mat using Guid(839bf3ec1f8848d4f9532dc894745aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '36345df68f321d4f1d556c58c8dddd92') in 0.035894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.185839 seconds.
+  path: Assets/idms/VectorspriteWorldFlags
+  artifactKey: Guid(a4f8698b8a0a0594a9002a17012cdf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/idms/VectorspriteWorldFlags using Guid(a4f8698b8a0a0594a9002a17012cdf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f16bd97511bc9acbe10a488c06d6a961') in 0.019655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.826833 seconds.
+  path: Assets/Moses FootballMenu.unity
+  artifactKey: Guid(f9e0fdc01bff0344db98f425355eab9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Moses FootballMenu.unity using Guid(f9e0fdc01bff0344db98f425355eab9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8fcf9a09e1480b52c95e05c3d9fde093') in 0.003059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
