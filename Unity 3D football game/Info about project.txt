@@ -1,0 +1,9 @@
+Hello ladies and gentlemen,
+
+This is the information provided below about this project.
+
+The size of the Unity 3D football game project is : 7.71 GB (Approximately 7.8 GB)
+
+Although, the size may increase if Unity is installed on your device and opened from the 'Contents' folder.
+
+Thanks for reading :)
